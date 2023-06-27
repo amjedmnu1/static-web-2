@@ -1,0 +1,143 @@
+@font-face {
+    font-family: myfont;
+    src: url(AktivGrotesk-XBold.ttf);
+
+    /* Aktiv.Grotesk/TTF/AktivGrotesk-Medium.ttf */
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    background-color: #00A74A;
+}
+.nav-d-1{
+    width: 619px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-d-1 img{
+    margin-top: 20px;
+    width: 132px;
+    height: 50px;
+
+}
+.nav-d-1 p{
+    font-family: myfont;
+    color: #ffff;
+    margin-top: 34px;
+   
+}
+.nav-d-2{
+    margin-right: 100px;
+    margin-top: 34px;
+    width: 180px;
+
+    display: flex;
+    justify-content: space-around;
+}
+.nav-d-2 img{
+    width: 21px;
+    height: 23px;   
+
+}
+
+.div-1{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+
+}
+.div-1-1{
+    font-family: myfont;
+    color: #ffff;
+    font-size: 63px;
+    width: 619px;
+    margin-top: 80px;
+    margin-left: 56px;
+}
+
+.div-1-1 img{
+    width: 338px;
+    height: 75px;   
+    
+}
+
+.div-1-1 button{
+    font-family: myfont;
+    font-size: 16px;
+    border: none;
+    width: 170px;
+    height: 44px;
+    background-color: #ffd100;
+}
+.div-2{
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-around;
+
+}
+.div-2-t2{
+    width: 600px;
+    font-size: 30px;
+    font-family: myfont;
+
+}
+.div-2-t1{
+    width: 642px;
+    font-size: 64px;
+    font-family:myfont;
+}
+.div-2 button{
+    margin-top: 60px;
+    font-family: myfont;
+    font-size: 16px;
+    border: none;
+    width: 170px;
+    height: 44px;
+    background-color: #ffd100;
+}
+.div-3{
+    display: flex;
+    justify-content: space-around;
+
+}
+.div-3 img{
+    width: 490px;
+
+   
+}
+.div-3 p{
+    font-size: 64px;
+    color: #009639;
+    font-family: myfont;
+    width: 676px;
+    margin-top: 13px;
+   
+}
+footer{
+    font-size: 14px;
+    color: #ffff;
+    padding-top: 55px;
+    font-family: myfont;
+
+
+    background-color: #009B4E;
+}
+.div-f{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
